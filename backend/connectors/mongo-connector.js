@@ -48,7 +48,7 @@ class MongoConnector{
             }
             return this.dbConnection;
         } catch (error) {
-            console.error(error);
+            console.error("createConnection", error);
         }
     }
 
@@ -67,7 +67,7 @@ class MongoConnector{
 
 
     handleConnectionError(error){
-        console.error(error);
+        console.error("handleConnectionError", error);
         throw '\n\nMongo db is not connected!';
     }
 
