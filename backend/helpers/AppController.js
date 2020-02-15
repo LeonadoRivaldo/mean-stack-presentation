@@ -1,5 +1,5 @@
 const AppMain = require("./AppMain");
-const {handleResponseError} = require('../helpers/error');
+const {handleResponseError} = require('./ErrorHandlers');
 
 
 

@@ -1,4 +1,4 @@
-const { ErrorHandler, handleResponseError } = require('../helpers/error');
+const { ErrorHandler, handleResponseError } = require('../helpers/ErrorHandlers');
 const Validator = require('validatorjs');
 
 class Validation{

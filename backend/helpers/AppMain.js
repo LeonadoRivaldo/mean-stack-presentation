@@ -1,4 +1,4 @@
-const { ErrorHandler } = require('../helpers/error');
+const { ErrorHandler } = require('./ErrorHandlers');
 
 
 class AppMain{
